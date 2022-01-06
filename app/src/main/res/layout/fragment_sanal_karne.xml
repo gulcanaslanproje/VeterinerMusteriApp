@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.SanalKarneFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/petlerin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textColor="#91aae2"
+        android:text="Petleriniz"
+        android:textSize="18dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sanalkarnepetler">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+</LinearLayout>
